@@ -1,1 +1,3 @@
-# sign-up-form
+# Sign-up Form
+
+Sign-up Form using HTML and CSS.
