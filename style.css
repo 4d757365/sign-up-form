@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Encode Sans Condensed", sans-serif;
+    
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    background-image: url(./deepmind-oUTugmSkagk-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    font-family: "Encode Sans Condensed";
+    margin-top: 20vh;
+    padding: 16px 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+a {
+    color: white;
+    font-size: 0.9rem;
+
+}
