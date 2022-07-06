@@ -11,7 +11,7 @@
     <div class="container">
         <div class="sidebar">
             <div class="logo">
-                Lorem Ipsum
+                <h1>LOREMIPSUM</h1>
             </div>
             <div class="attribution">
                 <p>Photo by <a href="https://unsplash.com/@deepmind">DeepMind</a> on <a href="https://unsplash.com/">Unsplash</a></p>
@@ -21,8 +21,51 @@
             <div class="description">
                 <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
                 <p>Sign-up now to get started.</p>
-                <p>You know you want to.</p>
+                <p>You <em>know</em> you want to.</p>
             </div>
+            <div class="form-box">
+                <p>Let's do this!</p>
+                <form action="#" method="post" id="sign-up">
+                    <fieldset>
+                        <div class="inputs">
+                            <label for="first-name">FIRST NAME: </label>
+                            <input type="text" name="first-name" id="first-name" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="last-name">LAST NAME: </label>
+                            <input type="text" name="last-name" id="last-name" required>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="inputs">
+                            <label for="email">EMAIL: </label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="phone">PHONE NUMBER: </label>
+                            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="inputs">
+                            <label for="password">PASSWORD: </label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="confirmation">CONFIRM PASSWORD: </label>
+                            <input type="password" name="confirmation" id="confirmation" required>
+                        </div>
+                    </fieldset>    
+                </form>
+            </div>
+            <div class="submission">
+                <div>
+                    <button type="submit" form="sign-up">Create account</button>
+                </div>
+                <div>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </div> 
         </div>
     </div>
 </body>
