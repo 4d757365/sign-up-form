@@ -111,6 +111,10 @@ input:hover {
     width: 33%;
 }
 
+label:after {
+    content:" *";
+    color: red;
+}
 .submission {
     padding-left: 2rem;
     height: 30%;
